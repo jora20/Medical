@@ -27,7 +27,7 @@
        
    }
    
-   @media only screen and (max-width: 769px) {
+   @media only screen and (max-width: 768px) {
    
    .navbar-nav{
        margin-left: 0;
@@ -71,7 +71,7 @@
       
   }
    
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 425px) {
    
    .navbar-nav{
       margin-left: 0;
@@ -100,7 +100,32 @@
        
    }
    
- @media only screen and (max-width: 376px) {
+   @media only screen and (max-width: 391px) {
+  
+    
+     .navbar .login {
+      margin-left: 0;
+      color: #FC724D;
+      font-weight: 800;
+      margin-left: 9.5rem;
+   }
+   .navbar .btn{
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 10px 6px;
+      border-radius: 7px; 
+      margin-left: -3rem;
+      margin-top: 4rem; 
+   }
+   .hero img{ 
+    margin-top: 0rem;
+    margin-left:-16rem;
+    min-width: 630px;
+    height: 450px;
+ }
+        
+    }  
+ @media only screen and (max-width: 375px) {
    
    .navbar-nav{
       margin-left: 0;
@@ -116,7 +141,7 @@
       font-weight: 700;
       padding: 10px 6px;
       border-radius: 7px; 
-      margin-left: -3remrem;
+      margin-left: -4rem;
       margin-top: 4rem; 
    }
    .hero img{ 
@@ -126,32 +151,8 @@
        height: 450px;
     }
        
-   } 
-   @media only screen and (max-width: 391px) {
-  
-        .hero img{ 
-            margin-top: 0rem;
-            margin-left: -16.8rem;
-            min-width: 630px;
-            height: 450px;
-         }
-         .navbar .login {
-          margin-left: 0;
-          color: #FC724D;
-          font-weight: 800;
-          margin-left: 9.5rem;
-       }
-       .navbar .btn{
-          font-size: 0.9rem;
-          font-weight: 700;
-          padding: 10px 6px;
-          border-radius: 7px; 
-          margin-left: -3remrem;
-          margin-top: 4rem; 
-       }
-            
-        }      
-@media only screen and (max-width: 321px) {
+   }     
+@media only screen and (max-width: 320px) {
    
    .navbar-nav{
       margin-left: 0;
@@ -160,7 +161,7 @@
       margin-left: 7.5rem;
    }
    .navbar .btn{
-      margin-left: -4rem;
+      margin-left: -3rem;
       margin-top: 4rem;
    }
    
@@ -796,13 +797,13 @@
 }
 
 /*----------------------------footer-2--------------------------*/
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   .footer-2 .footer-txt p{
     font-size: 0.775rem;
     margin-left: 1rem;
   }
 }
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 425px) {
   .footer-2 .footer-txt p{
     font-size: 0.875rem;
     margin-left: 1rem;
@@ -814,16 +815,16 @@
 @media only screen and (max-width: 391px) {
   .footer-2 .footer-txt p{
     font-size: 0.775rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
   .footer-2 .social-icon{
     margin-left: 0rem;
   }
 }
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 320px) {
   .footer-2 .footer-txt p{
     font-size: 0.675rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   .footer-2 .social-icon{
     margin-left: 0rem;
