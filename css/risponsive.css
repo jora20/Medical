@@ -605,6 +605,9 @@
     }
 }
 @media only screen and (max-width: 426px) {
+  .Testimonial .card{
+    margin-left: 1rem;
+  }
    .Testimonial .main-heading p{
       font-size: 0.875rem;
       color: #737373;
@@ -806,7 +809,7 @@
 @media only screen and (max-width: 425px) {
   .footer-2 .footer-txt p{
     font-size: 0.875rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
   .footer-2 .social-icon{
     margin-left: 0rem;
