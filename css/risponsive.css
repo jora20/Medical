@@ -1,0 +1,831 @@
+/*---------------------------section wise media query--------------------------*/
+
+/*-----------------------------------navbar--------------------------*/
+@media only screen and (max-width: 1024px) {
+
+   .navbar-nav{
+      margin-left: 1rem;
+   }
+   .navbar .login {
+      margin-left: 17rem;
+      color: #FC724D;
+      font-weight: 800;
+   }
+   .navbar .btn{
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 10px 6px;
+      border-radius: 7px; 
+   }
+   .hero img{
+       margin-top: -1rem;
+       margin-left: -25rem;
+       min-width: 900px;
+       height: 600px;
+       
+    }
+       
+   }
+   
+   @media only screen and (max-width: 769px) {
+   
+   .navbar-nav{
+       margin-left: 0;
+   }
+   .navbar .login {
+      margin-left: 0;
+      color: #FC724D;
+      font-weight: 800;
+      margin-left: 20rem;
+      margin-top: -4rem;
+   }
+   .navbar .btn{
+       font-size: 0.9rem;
+       font-weight: 700;
+       padding: 10px 6px;
+       border-radius: 7px; 
+       margin-left: -3.5rem;
+       margin-top: 4rem; 
+   }
+   .hero .hero-text{
+      margin-top: 7rem;
+  }
+  .hero .hero-text h1{
+      font-size: 2.9rem;
+      padding-top: 15px;
+  }
+  .hero .hero-text h4{
+      font-size: 1rem;
+      padding-top: 10px;
+  }
+  .hero .hero-btn{
+      
+      padding-bottom: 5px;
+  }
+  .hero img{ 
+      margin-top: 0rem;
+      margin-left: -17rem;
+      min-width: 640px;
+      height: 490px;
+   }
+      
+  }
+   
+@media only screen and (max-width: 426px) {
+   
+   .navbar-nav{
+      margin-left: 0;
+   }
+   .navbar .login {
+      margin-left: 0;
+      color: #FC724D;
+      font-weight: 800;
+      margin-left: 11rem;
+      margin-top: -4rem;
+   }
+   .navbar .btn{
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 10px 6px;
+      border-radius: 7px; 
+      margin-left: -3.7rem;
+      margin-top: 4rem; 
+   }
+   .hero img{ 
+       margin-top: 0rem;
+       margin-left: -14rem;
+       min-width: 640px;
+       height: 490px;
+    }
+       
+   }
+   
+ @media only screen and (max-width: 376px) {
+   
+   .navbar-nav{
+      margin-left: 0;
+   }
+   .navbar .login {
+      margin-left: 0;
+      color: #FC724D;
+      font-weight: 800;
+      margin-left: 9.2rem;
+   }
+   .navbar .btn{
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 10px 6px;
+      border-radius: 7px; 
+      margin-left: -3remrem;
+      margin-top: 4rem; 
+   }
+   .hero img{ 
+       margin-top: 0rem;
+       margin-left: -16.5rem;
+       min-width: 630px;
+       height: 450px;
+    }
+       
+   } 
+   @media only screen and (max-width: 391px) {
+  
+        .hero img{ 
+            margin-top: 0rem;
+            margin-left: -16.8rem;
+            min-width: 630px;
+            height: 450px;
+         }
+         .navbar .login {
+          margin-left: 0;
+          color: #FC724D;
+          font-weight: 800;
+          margin-left: 9.5rem;
+       }
+       .navbar .btn{
+          font-size: 0.9rem;
+          font-weight: 700;
+          padding: 10px 6px;
+          border-radius: 7px; 
+          margin-left: -3remrem;
+          margin-top: 4rem; 
+       }
+            
+        }      
+@media only screen and (max-width: 321px) {
+   
+   .navbar-nav{
+      margin-left: 0;
+   }
+   .navbar .login {
+      margin-left: 7.5rem;
+   }
+   .navbar .btn{
+      margin-left: -4rem;
+      margin-top: 4rem;
+   }
+   
+  .hero .hero-text h1{
+      font-size: 2.4rem;
+  }
+  .hero .hero-text h4{
+      font-size: 0.9rem;
+      padding-top: 10px;
+  }
+   .hero img{ 
+       margin-top: 0rem;
+       margin-left: -14.1rem;
+       min-width: 530px;
+       height: 400px;
+    }
+       
+   }   
+                  
+/*----------------------advise-----------------*/ 
+
+@media only screen and (max-width: 1024px) {
+   
+ .advise .card{
+   width: 14.8rem;
+ }
+}  
+
+@media only screen and (max-width: 769px) {
+   
+   .advise .card{
+      width: 11rem;
+      padding: 1.1875rem 1.5rem;
+      
+   }
+   .advise  .card-3{
+      width: 11rem;
+      padding: 1.1875rem 1.5rem;
+    }
+  }   
+  
+  
+@media only screen and (max-width: 426px) {
+   .advise .main-heading p{
+      font-size: 0.875rem;
+      color: #737373;
+    }
+   .advise .card-top{
+      margin-top: 4rem;
+    }
+   
+   .advise .card{
+      width: 16rem;
+      display: flex;
+      padding: 2.1875rem 2.5rem;
+      margin-left: 4.5rem;
+      
+   }
+   .advise  .card-3{
+      width: 16rem;
+      display: flex;
+      padding: 2.1875rem 2.5rem;
+    }
+  }  
+  
+  
+@media only screen and (max-width: 376px) {
+   .advise .main-heading h1{
+      font-size: 2rem;
+      
+    }
+   .advise .main-heading p{
+      font-size: 0.8rem;
+      color: #737373;
+    }
+   .advise .card{
+      width: 16rem;
+      display: flex;
+      padding: 2.1875rem 2.5rem;
+      margin-left: 3rem; 
+   }
+   
+  }  
+  
+  
+@media only screen and (max-width: 321px) {
+   .advise .main-heading h1{
+      font-size: 2rem;
+      
+    }
+   .advise .main-heading p{
+      font-size: 0.7rem;
+      color: #737373;
+    }
+   .advise .card{
+      width: 16rem;
+      display: flex;
+      padding: 2.1875rem 2.5rem;
+      margin-left: 1.3rem; 
+   }
+   
+  }  
+
+/*----------------------Our-Doctors---------------------------*/
+@media only screen and (max-width: 769px) {
+   .our-doctors .mr-text h2{
+      font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+   .our-doctors .right-image{
+      margin-top: 2rem;
+   }
+}
+
+/*----------------------Our-Doctors-sec-2---------------------------*/
+@media only screen and (max-width: 769px) {
+   .our-doctors-sec-2 .mr-text {
+      padding-left: 2rem;
+    }
+    .our-doctors-sec-2 .right-image img{
+      width: 34rem;
+      height: 32.4375rem;
+    }
+}
+@media only screen and (max-width: 426px) {
+   .our-doctors-sec-2 .mr-text h2 {
+      font-size: 2.3rem;
+    }
+    .our-doctors-sec-2 .mr-text p {
+      font-size: 0.8rem;
+    }
+    .our-doctors-sec-2 .right-image img{
+      width: 34rem;
+      height: 25.4375rem;
+    }
+}
+@media only screen and (max-width: 376px) {
+   .our-doctors-sec-2 .mr-text h2 {
+      font-size: 2.3rem;
+    }
+    .our-doctors-sec-2 .mr-text p {
+      font-size: 0.8rem;
+    }
+    .our-doctors-sec-2 .right-image img{
+      width: 34rem;
+      height: 25.4375rem;
+    }
+}
+@media only screen and (max-width: 321px) {
+   .our-doctors-sec-2 .mr-text h2 {
+      font-size: 2rem;
+    }
+    .our-doctors-sec-2 .mr-text p {
+      font-size: 0.8rem;
+    }
+    .our-doctors-sec-2 .right-image img{
+      width: 34rem;
+      height: 25.4375rem;
+    }
+}
+
+/*--------------------------------Our Products--------------------------*/
+@media only screen and (max-width: 1025px) {
+   .our-products .card{
+      width: 14rem;
+     }
+     .our-products .mr-card .card img{
+      width: 13.875rem;
+      height: 17.75rem;
+    }
+    .our-products .card .mr-icon img{
+      width: 1.25rem;
+      height: 1.25rem;
+     }
+     .our-products .card .icon img{
+      width: 1rem;
+      height: 1rem;
+    }
+    .our-products .card .reting img{
+      width: 1rem;
+      height: 1rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+   .our-products .card{
+      width: 10rem;
+     }
+     .our-products .mr-card .card img{
+      width: 10.875rem;
+      height: 13.75rem;
+    }
+    .our-products .card .mr-icon img{
+      width: 1.25rem;
+      height: 1.25rem;
+     }
+     .our-products .card .icon img{
+      width: 1rem;
+      height: 1rem;
+    }
+    .our-products .card .reting img{
+      width: 1rem;
+      height: 1rem;
+    }
+    .our-products  .card .mr-icon {
+      width: 6.5rem;
+      height: 2rem;
+      margin-top: 10rem;
+      margin-left: 1.3rem;
+     }
+     .our-products .card h6{
+      margin-left: 0rem;
+    }
+    .our-products .card h5{
+      margin-left: 0rem;
+    }
+    .our-products .card p{
+      margin-left: 0rem;
+    }
+    .our-products .card .reting{
+         margin-left: 8.1rem;
+         width: 2.9rem;
+       }
+       .our-products .card .icon img{
+         margin-left: 0;
+       }
+    }
+    
+    @media only screen and (max-width: 426px) {
+      .our-products .main-heading h1{
+         font-size: 2.3rem;
+       }
+       .our-products .main-heading p{
+         font-size: 0.875rem;
+         color: #737373;
+       }
+      .our-products .card{
+         width: 14rem;
+        }
+        .our-products .mr-card{
+         margin-left: 5rem;
+        }
+        .our-products .mr-card .card img{
+         width: 13.875rem;
+         height: 17.75rem;
+       }
+       .our-products  .card .mr-icon {
+         width: 6.5rem;
+         height: 2rem;
+         margin-top: 15rem;
+         margin-left: 3.3rem;
+        }
+       .our-products .card .mr-icon img{
+         width: 1.25rem;
+         height: 1.25rem;
+        }
+        .our-products .card .icon img{
+         width: 1rem;
+         height: 1rem;
+         margin-left: 1rem;
+       }
+       .our-products .card .reting img{
+         width: 1rem;
+         height: 1rem;
+       }
+       .our-products .card h6{
+         margin-left: 1rem;
+       }
+       .our-products .card h5{
+         margin-left: 1rem;
+       }
+       .our-products .card p{
+         margin-left: 1rem;
+       }
+       .our-products .card .reting{
+            margin-left: 10.1rem;
+            width: 2.9rem;
+          }
+       .our-products .card .icon img{
+            margin-left: 1;
+          }
+    }  
+
+    @media only screen and (max-width: 391px) {
+      .our-products .card{
+         width: 14rem;
+        }
+        .our-products .mr-card{
+         margin-left: 3.7rem;
+        }
+        .our-products .mr-card .card img{
+         width: 13.875rem;
+         height: 17.75rem;
+       }
+       .our-products  .card .mr-icon {
+         width: 6.5rem;
+         height: 2rem;
+         margin-top: 15rem;
+         margin-left: 3.3rem;
+        }
+       .our-products .card .mr-icon img{
+         width: 1.25rem;
+         height: 1.25rem;
+        }
+        .our-products .card .icon img{
+         width: 1rem;
+         height: 1rem;
+         margin-left: 1rem;
+       }
+       .our-products .card .reting img{
+         width: 1rem;
+         height: 1rem;
+       }
+       .our-products .card h6{
+         margin-left: 1rem;
+       }
+       .our-products .card h5{
+         margin-left: 1rem;
+       }
+       .our-products .card p{
+         margin-left: 1rem;
+       }
+       .our-products .card .reting{
+            margin-left: 10.1rem;
+            width: 2.9rem;
+          }
+       .our-products .card .icon img{
+            margin-left: 1;
+          }
+    }  
+    
+    @media only screen and (max-width: 376px) {
+      .our-products .card{
+         width: 14rem;
+        }
+        .our-products .mr-card{
+         margin-left: 3rem;
+        }
+        .our-products .mr-card .card img{
+         width: 13.875rem;
+         height: 17.75rem;
+       }
+       .our-products  .card .mr-icon {
+         width: 6.5rem;
+         height: 2rem;
+         margin-top: 15rem;
+         margin-left: 3.3rem;
+        }
+       .our-products .card .mr-icon img{
+         width: 1.25rem;
+         height: 1.25rem;
+        }
+        .our-products .card .icon img{
+         width: 1rem;
+         height: 1rem;
+         margin-left: 1rem;
+       }
+       .our-products .card .reting img{
+         width: 1rem;
+         height: 1rem;
+       }
+       .our-products .card h6{
+         margin-left: 1rem;
+       }
+       .our-products .card h5{
+         margin-left: 1rem;
+       }
+       .our-products .card p{
+         margin-left: 1rem;
+       }
+       .our-products .card .reting{
+            margin-left: 10.1rem;
+            width: 2.9rem;
+          }
+       .our-products .card .icon img{
+            margin-left: 1;
+          }
+    }  
+
+    
+    @media only screen and (max-width: 321px) {
+      .our-products .card{
+         width: 14rem;
+        }
+        .our-products .mr-card{
+         margin-left: 1rem;
+        }
+        .our-products .mr-card .card img{
+         width: 13.875rem;
+         height: 17.75rem;
+       }
+       .our-products  .card .mr-icon {
+         width: 6.5rem;
+         height: 2rem;
+         margin-top: 15rem;
+         margin-left: 3.3rem;
+        }
+       .our-products .card .mr-icon img{
+         width: 1.25rem;
+         height: 1.25rem;
+        }
+        .our-products .card .icon img{
+         width: 1rem;
+         height: 1rem;
+         margin-left: 1rem;
+       }
+       .our-products .card .reting img{
+         width: 1rem;
+         height: 1rem;
+       }
+       .our-products .card h6{
+         margin-left: 1rem;
+       }
+       .our-products .card h5{
+         margin-left: 1rem;
+       }
+       .our-products .card p{
+         margin-left: 1rem;
+       }
+       .our-products .card .reting{
+            margin-left: 10.1rem;
+            width: 2.9rem;
+          }
+       .our-products .card .icon img{
+            margin-left: 1;
+          }
+    }  
+     
+/*----------------------------Testimonials--------------------------*/
+@media only screen and (max-width: 1025px) {
+   .Testimonial .card{
+      margin-left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+   .Testimonial .card{
+      margin-left: -1rem;
+    }
+}
+@media only screen and (max-width: 426px) {
+   .Testimonial .main-heading p{
+      font-size: 0.875rem;
+      color: #737373;
+    }
+}
+@media only screen and (max-width: 376px) {
+   .Testimonial .card{
+      margin-left: -2rem;
+      padding-left: 2rem;
+    }
+   .Testimonial .card p{
+      width: 15rem;
+      font-size: 0.875rem;
+    }
+}
+@media only screen and (max-width: 321px) {
+   .Testimonial .card{
+      margin-left: -5rem;
+      padding-left: 5rem;
+    }
+   .Testimonial .card p{
+      width: 13rem;
+      font-size: 0.875rem;
+    }
+}
+
+/*----------------------------Team--------------------------*/
+@media only screen and (max-width: 1025px) {
+   .team .card{
+      width: 14rem;
+    }
+}
+@media only screen and (max-width: 769px) {
+   .team .card{
+      width: 10rem;
+    }
+}
+@media only screen and (max-width: 426px) {
+   .team .main-heading p{
+      font-size: 0.875rem;
+      color: #737373;
+    }
+   .team .card{
+      width: 15rem;
+      margin-left: 5rem;
+    }
+}
+@media only screen and (max-width: 391px) {
+   
+   .team .card{
+      width: 15rem;
+      margin-left: 4rem;
+    }
+}
+@media only screen and (max-width: 321px) {
+   
+   .team .card{
+      width: 15rem;
+      margin-left: 2rem;
+    }
+}
+
+/*----------------------------contact--------------------------*/
+@media only screen and (max-width: 1025px) {
+   .contact .mr-form{
+      width: 60%;
+      margin-left: 12rem;
+      margin-top: 5rem;
+    }
+}
+@media only screen and (max-width: 769px) {
+   .contact .mr-form{
+      width: 60%;
+      margin-left: 8rem;
+      margin-top: 5rem;
+    }
+}
+@media only screen and (max-width: 426px) {
+   .contact .main-heading p{
+      font-size: 0.875rem;
+      color: #737373;
+    }
+   .contact .mr-form{
+      width: 90%;
+      margin-left: 1rem;
+      margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 391px) {
+   .contact .main-heading p{
+      font-size: 0.775rem;
+      color: #737373;
+    }
+   .contact .mr-form{
+      width: 90%;
+      margin-left: 1rem;
+      margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 376px) {
+   .contact .main-heading p{
+      font-size: 0.575rem;
+      color: #737373;
+    }
+   .contact .mr-form{
+      width: 101%;
+      margin-left: 0;
+      margin-top: 3rem;
+    }
+    .contact  .login{ 
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 9px 10px;
+      border-radius: 8px;
+    }
+}
+
+/*----------------------------footer--------------------------*/
+@media only screen and (max-width: 1025px) {
+  .footer .mr-col-5 .mr-txt{
+    margin-left: 4rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+
+.footer a{
+  font-size: 0.575rem;
+}
+.footer h5{
+  font-size: 0.875rem;
+}
+.footer .mr-col-5 .mr-txt{
+  margin-left: 2;
+}
+}
+
+@media only screen and (max-width: 426px) {
+  .footer{
+    margin-top: 10rem;
+    margin-left: 9rem;
+  }
+  
+.footer a{
+  font-size: 0.775rem;
+}
+
+.footer .mr-col-5 .mr-txt{
+  margin-left: -1rem;
+}
+.footer .mr-col-5 .mr-txt-2{
+  margin-left: -7rem;
+}
+}
+
+@media only screen and (max-width: 376px) {
+  .footer{
+    margin-top: 10rem;
+    margin-left: 8rem;
+  }
+  
+.footer a{
+  font-size: 0.775rem;
+}
+
+.footer .mr-col-5 .mr-txt{
+  margin-left: -1rem;
+}
+.footer .mr-col-5 .mr-txt-2{
+  margin-left: -7rem;
+}
+}
+
+@media only screen and (max-width: 321px) {
+  .footer{
+    margin-top: 10rem;
+    margin-left: 5.3rem;
+  }
+  
+.footer a{
+  font-size: 0.775rem;
+}
+
+.footer .mr-col-5 .mr-txt{
+  margin-left: -1rem;
+}
+.footer .mr-col-5 .mr-txt-2{
+  margin-left: -4rem;
+}
+}
+
+/*----------------------------footer-2--------------------------*/
+@media only screen and (max-width: 769px) {
+  .footer-2 .footer-txt p{
+    font-size: 0.775rem;
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .footer-2 .footer-txt p{
+    font-size: 0.875rem;
+    margin-left: 1rem;
+  }
+  .footer-2 .social-icon{
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .footer-2 .footer-txt p{
+    font-size: 0.775rem;
+    margin-left: 1rem;
+  }
+  .footer-2 .social-icon{
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .footer-2 .footer-txt p{
+    font-size: 0.675rem;
+    margin-left: 1rem;
+  }
+  .footer-2 .social-icon{
+    margin-left: 0rem;
+  }
+}
